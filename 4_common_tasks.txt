@@ -1,0 +1,48 @@
+Arithmetic and Bit-shift Tasks
+----------------------------------------------------
+OPERATOR
+----------------------------------------------------
++   | Add one numeric value to another
+-   | Subtract one numeric value from another
+-   | Reverse the sign of a numeric value
+*   | Multiply one numeric value by another
+/   | Divide one numeric value into another
+\   | Find the quotient of one numeric value divided by another (without the remainder)
+Mod | Find the remainder of one numeric value divided by another (without the quotient)
+^   | Raise one numeric value to the power of another
+----------------------------------------------------
+Comparison Tasks (OPERATOR)
+----------------------------------------------------
+=   | Determine whether two values are equal
+<>  | Determine whether two values are unequal
+<   | Determine whether one value is less than another
+>   | Determine whether one value is greater than another
+<=  | Determine whether one value is less than or equal to another
+>=  | Determine whether one value is greater than or equal to another
+Is  | Determine whether two object variables refer to the same object instance
+IsNot | Determine whether two object variables refer to different object instances
+TypeOf | Determine whether an object is of a specific type
+----------------------------------------------------
+CONCATENATION TASKS (OPERATOR)
+----------------------------------------------------
+&   | Operator (Concatenation Operators in Visual Basic)
++   | Operator (Concatenation Operators in Visual Basic)
+----------------------------------------------------
+Logical and Bitwise Tasks
+----------------------------------------------------
+Not     | Perform logical negation on a Boolean value	
+And     | Perform logical conjunction on two Boolean values	
+Or      | Perform inclusive logical disjunction on two Boolean values	 
+Xor     | Perform exclusive logical disjunction on two Boolean values	 
+AndAlso | Perform short-circuited logical conjunction on two Boolean values	
+OrElse  | Perform short-circuited inclusive logical disjunction on two Boolean values 
+And     | Perform bit-by-bit logical conjunction on two integral values	
+Or      | Perform bit-by-bit inclusive logical disjunction on two integral values	
+Xor     | Perform bit-by-bit exclusive logical disjunction on two integral values	
+Not     | Perform bit-by-bit logical negation on an integral value	
+
+
+
+
+
+

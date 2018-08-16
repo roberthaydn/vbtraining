@@ -1,0 +1,36 @@
+'Rextester.Program.Main is the entry point for your code. Don't change it.
+'Compiler version 11.0.50709.17929 for Microsoft (R) .NET Framework 4.5
+
+Imports System
+Imports System.Collections.Generic
+Imports System.Linq
+Imports System.Text.RegularExpressions
+
+Namespace Rextester
+    Public Module Program  
+        Public Sub Main(args() As string)
+        'Create a Random object to seed our starting value 
+        Dim randomizer As New Random()
+        'set our variable
+        Dim count As Integer = randomizer.Next(0, 5)
+
+        Dim message As String
+
+        'If count is zero, output will be no items
+        If count = 0 Then
+            message = "There are no items."
+            
+        'If count is 1, output will be "There is 1 item.".        
+        ElseIf count = 1 Then
+            message = "There is 1 item."
+
+        'If count is greater than 1, output will be "There are {count} items.", where {count} is replaced by the value of count. 
+        Else
+            message = "There are " & count & " items."
+        End If
+
+        Console.WriteLine(message)
+        
+    	End Sub  
+    End Module
+End Namespace

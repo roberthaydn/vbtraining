@@ -1,0 +1,31 @@
+'Rextester.Program.Main is the entry point for your code. Don't change it.
+'Compiler version 11.0.50709.17929 for Microsoft (R) .NET Framework 4.5
+
+Imports System
+Imports System.Collections.Generic
+Imports System.Linq
+Imports System.Text.RegularExpressions
+
+Namespace Rextester
+    Public Module Program  
+        Public Sub Main(args() As string)
+        
+        Dim x As String = "Mic" & "ro" & "soft" 
+        Dim y As String = "Mic" + "ro" + "soft" 
+	
+	Dim num1 As Integer = 10
+	Dim num2 As Integer = 3
+
+        Console.WriteLine(x)
+	Console.WriteLine(y)
+	
+	'add both variables
+	Console.WriteLine(num1 + num2)
+	'result = 13
+	
+	'concatenate both variables
+	Console.WriteLine(num1 & num2)
+        
+    	End Sub  
+    End Module
+End Namespace

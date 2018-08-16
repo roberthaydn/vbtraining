@@ -1,0 +1,24 @@
+'Rextester.Program.Main is the entry point for your code. Don't change it.
+'Compiler version 11.0.50709.17929 for Microsoft (R) .NET Framework 4.5
+
+Imports System
+Imports System.Collections.Generic
+Imports System.Linq
+Imports System.Text.RegularExpressions
+
+Namespace Rextester
+    Public Module Program
+        Public Sub Main(args() As string)
+        
+        Dim x As Boolean = false
+
+        If x = true Then
+            ' Insert code to run if x and y point to the same instance.
+            console.Write("TRUE")
+        Else 
+            console.Write("FALSE")
+        End If
+
+    	End Sub  
+    End Module
+End Namespace

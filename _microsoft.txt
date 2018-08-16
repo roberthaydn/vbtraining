@@ -1,0 +1,6 @@
+
+visual basic syntax tutorial
+https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/operators-and-expressions/
+
+visual basic 2008 - download
+https://stackoverflow.com/questions/17108102/download-and-install-visual-studio-2008

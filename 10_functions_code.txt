@@ -1,0 +1,47 @@
+'Rextester.Program.Main is the entry point for your code. Don't change it.
+'Compiler version 11.0.50709.17929 for Microsoft (R) .NET Framework 4.5
+
+Imports System
+Imports System.Collections.Generic
+Imports System.Linq
+Imports System.Text.RegularExpressions
+
+Namespace Rextester
+    Public Module Program  
+        Public Sub Main(args() As string)
+            Console.WriteLine(AddNum(1, 2))
+    	End Sub 
+        
+        Private Function AddNum(ByVal n1 As Integer, ByVal n2 As Integer) As Integer
+            Return n1 + n2
+        End Function
+        
+    End Module
+End Namespace
+
+-----
+
+
+'Rextester.Program.Main is the entry point for your code. Don't change it.
+'Compiler version 11.0.50709.17929 for Microsoft (R) .NET Framework 4.5
+
+Imports System
+Imports System.Collections.Generic
+Imports System.Linq
+Imports System.Text.RegularExpressions
+
+Namespace Rextester
+    Public Module Program  
+        Dim result as Integer
+        
+        Public Sub Main(args() As string)
+            result = AddNum(10, 2)
+            Console.WriteLine(result)
+    	End Sub 
+        
+        Private Function AddNum(ByVal n1 As Integer, ByVal n2 As Integer) As Integer
+            Return n1 / n2
+        End Function
+        
+    End Module
+End Namespace

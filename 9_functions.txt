@@ -1,0 +1,11 @@
+Modifiers - specify the access level of the 
+	   function; possible values are: 
+	   Public, Private, Protected, Friend, 
+	   Protected Friend and information 
+           regarding overloading, overriding, sharing, and shadowing.
+
+FunctionName - indicates the name of the function
+
+ParameterList - specifies the list of the parameters
+
+ReturnType - specifies the data type of the variable the function returns

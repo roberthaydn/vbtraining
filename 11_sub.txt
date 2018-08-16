@@ -1,0 +1,5 @@
+Modifiers - specify the access level of the procedure; possible values are - Public, Private, Protected, Friend, Protected Friend and information regarding overloading, overriding, sharing, and shadowing.
+
+SubName - indicates the name of the Sub
+
+ParameterList - specifies the list of the parameters

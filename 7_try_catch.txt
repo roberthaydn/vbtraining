@@ -1,0 +1,42 @@
+'Rextester.Program.Main is the entry point for your code. Don't change it.
+'Compiler version 11.0.50709.17929 for Microsoft (R) .NET Framework 4.5
+
+Imports System
+Imports System.Collections.Generic
+Imports System.Linq
+Imports System.Text.RegularExpressions
+
+Namespace Rextester
+    Public Module Program  
+        Public Sub Main(args() As string)
+        
+        ' Declare variables.
+        Dim x As Integer = 5
+        Dim y As Integer = 0
+        
+
+        ' Set up structured error handling.
+        Try
+            ' Cause a "Divide by Zero" exception.
+            x = x \ y
+
+            ' This statement does not execute because program
+            ' control passes to the Catch block when the
+            ' exception occurs.
+            console.WriteLine("end of Try block")
+            Catch ex As Exception
+            ' Show the exception's message.
+            console.WriteLine(ex.Message)
+
+            ' Show the stack trace, which is a list of methods
+            ' that are currently executing.
+            'console.WriteLine("Stack Trace: " & vbCrLf & ex.StackTrace)
+            console.WriteLine("Stack Trace: " & ex.StackTrace)
+        Finally
+            ' This line executes whether or not the exception occurs.
+            console.WriteLine("in Finally block")
+        End Try
+
+    	End Sub  
+    End Module
+End Namespace

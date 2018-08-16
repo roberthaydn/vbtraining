@@ -10,14 +10,18 @@ Namespace Rextester
     Public Module Program
         Public Sub Main(args() As string)
         
-        Dim x As Boolean = false
+        On Error Resume Next
 
-        If x = true Then
-            ' Insert code to run if x and y point to the same instance.
-            console.Write("TRUE")
-        Else 
-            console.Write("FALSE")
-        End If
+	'DangerousOperationThatCouldCauseErrors
+
+	If Err Then
+    		WScript.StdErr.WriteLine "error " & Err.Number
+    	   	WScript.Quit 1
+	End If
+	
+	'When an error occurs, the execution will continue on the next line without interrupting the script.
+
+On Error GoTo 0
 
     	End Sub  
     End Module

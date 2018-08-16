@@ -1,0 +1,49 @@
+'Rextester.Program.Main is the entry point for your code. Don't change it.
+'Compiler version 11.0.50709.17929 for Microsoft (R) .NET Framework 4.5
+
+Imports System
+Imports System.Collections.Generic
+Imports System.Linq
+Imports System.Text.RegularExpressions
+
+Namespace Rextester
+
+    Public Module Program  
+        
+        Public Sub Main(args() As string)
+        
+        Dim rect As Rectangle = new Rectangle()
+        rect.setWidth(5)
+        rect.setHeight(7)
+        
+        console.WriteLine(rect.getArea())
+                       
+    	End Sub 
+        
+        'declaring a class
+        Class Shape
+            protected width As Integer
+            protected height As Integer
+            
+            Public Function setWidth(ByVal w As Integer) As Integer
+                width = w
+                return width
+            End Function
+            
+            Public Function setHeight(ByVal h As Integer) As Integer
+                height = h
+                return height
+            End Function
+            
+        End Class
+        
+        'inheritance
+        Class Rectangle : Inherits Shape
+           Public Function getArea() As Integer
+               return (width * height)
+           End Function
+        End Class
+    
+    End Module
+             
+End Namespace

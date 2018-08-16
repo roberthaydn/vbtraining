@@ -1,0 +1,65 @@
+'Rextester.Program.Main is the entry point for your code. Don't change it.
+'Compiler version 11.0.50709.17929 for Microsoft (R) .NET Framework 4.5
+
+Imports System
+Imports System.Collections.Generic
+Imports System.Linq
+Imports System.Text.RegularExpressions
+
+Namespace Rextester
+
+    Public Module Program  
+        
+        Public Sub Main(args() As string)
+        
+            Dim p As Person = new Person()
+            Dim fname As String, 
+                lname As String, 
+                age As Integer,
+                print As String
+                
+            p.Firstname = "Hayley"
+            p.Lastname = "Williams"
+            p.Age = 22
+            
+            fname = p.Firstname
+            lname = p.Lastname
+            age = p.Age
+                
+            Console.WriteLine("Name: " & fname & " " & lname)
+            Console.WriteLine("Age: " & age)
+            Console.WriteLine("Skill: " & p.skill("Singing"))
+            Console.WriteLine("Blood Type: " & p.bloodType())
+            p.numOfChildren(4)
+                       
+    	End Sub 
+        
+        'declaring a class
+        Class Person 
+            'properties
+            Public Firstname As String  
+            Public Lastname As String  
+            Public Age As Integer
+            
+            'functions
+            public function skill(ByVal s As String) As String
+               return s
+            End function
+            
+            public function bloodType()
+                Dim b As String = "O"
+                Return b
+            End function
+            
+            'sub
+            public Sub numOfChildren(ByVal c As Integer)
+               Console.WriteLine("Number of Children: " & c)
+            End Sub
+            
+        End Class
+    
+    End Module
+    
+    
+        
+End Namespace

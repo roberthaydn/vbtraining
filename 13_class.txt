@@ -1,0 +1,15 @@
+attributelist -> is a list of attributes that apply to the class. Optional.
+
+accessmodifier -> defines the access levels of the class, it has values as - Public, Protected, Friend, Protected Friend and Private. Optional.
+
+Shadows indicate that the variable re-declares and hides an identically named element, or set of overloaded elements, in a base class. Optional.
+
+MustInherit -> specifies that the class can be used only as a base class and that you cannot create an object directly from it, i.e., an abstract class. Optional.
+
+NotInheritable -> specifies that the class cannot be used as a base class.
+
+Partial -> indicates a partial definition of the class.
+
+Inherits -> specifies the base class it is inheriting from.
+
+Implements -> specifies the interfaces the class is inheriting from.

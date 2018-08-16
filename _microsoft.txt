@@ -4,3 +4,6 @@ https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-
 
 visual basic 2008 - download
 https://stackoverflow.com/questions/17108102/download-and-install-visual-studio-2008
+
+vb built-in functions
+http://www.technologyuk.net/software-development/vbnet/built-in-functions.shtml

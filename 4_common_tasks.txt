@@ -20,7 +20,7 @@ Comparison Tasks (OPERATOR)
 <=  | Determine whether one value is less than or equal to another
 >=  | Determine whether one value is greater than or equal to another
 Is  | Determine whether two object variables refer to the same object instance
-IsNot | Determine whether two object variables refer to different object instances
+IsNot  | Determine whether two object variables refer to different object instances
 TypeOf | Determine whether an object is of a specific type
 ----------------------------------------------------
 CONCATENATION TASKS (OPERATOR)
